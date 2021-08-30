@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Teko', sans-serif;
+} 
+
+.bg-about {
+    background: #fff url(/images/blob.svg) center  no-repeat;
+    /* background: #fff url(/images/blob.svg) center no-repeat; */
+    min-height: 80vh;
+}
+.about_us{
+    padding-top: 4rem;
+    font-family: 'Teko', sans-serif;
+    
+}
+.about_us img{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+}

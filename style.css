@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+html {
+    scroll-behavior: smooth;
+    
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Teko', sans-serif;
+} 
+.navbar{
+    background-color: #fa9a01; 
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+.logo-img{
+    height: 50px;
+    width: auto;
+}
+
+.nav-link{
+    font-size: 20px;
+    color: inherit;
+    color: #fff;
+    padding-right: 10px;
+}
+
+
+.bg-strt {
+    /* background: -webkit-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -webkit-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: -o-linear-gradient(200deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -o-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%);
+    background: -moz-linear-gradient(110deg, #a60af3 40%, rgba(0, 0, 0, 0) 30%), -moz-radial-gradient(farthest-corner at 0% 0%, #7a00cc 70%, #c03fff 70%); */
+    background: linear-gradient(110deg, #fbc062 40%, rgba(0, 0, 0, 0) 30%), radial-gradient(farthest-corner at 0% 0%, #fa9a01 70%, #c57a02 70%);
+    min-height: 75vh;
+}
+.strt{
+    padding-top: 10rem;
+}
+.strt-first{
+    margin: 1rem;
+    width: 100%;
+    border: none;
+    color: #fff;
+    /*  */
+}
+.strt-first h4{
+    color: #000;
+    font-weight: 600;
+}
+/* .strt-first button{
+    color:rgb(0, 0, 0); 
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #fff;
+    border: none;
+} */
+.bg-mid1 {
+    background: #fff url(/images/wave1.svg) center center/cover no-repeat;
+    /* background: #fff url(/images/blob.svg) center no-repeat; */
+    min-height: 80vh;
+}
+.mid{
+    padding-top: 4rem;
+    font-family: 'Teko', sans-serif;
+    
+}
+.mid-first{
+    margin: 2rem;
+    padding: 2rem;
+    background: rgba( 255, 255, 255, 0.40 );
+    box-shadow: 0 8px 32px 0 #c57a02;
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 20px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    font-family: 'Teko', sans-serif;
+    
+
+    
+}
+.mid-first:hover{
+    background: #fff;
+    transition: 1s;
+}
+.services{
+    font-family: 'Teko', sans-serif;
+    margin: 10px;
+    padding: 5px;
+    /* background: #fa9a01 ; */
+    min-height: 65vh;
+}
+.serv{
+    margin: 1rem;
+}
+/* @media screen and( max-width: 600px){
+    .services{
+        display: none;
+    }
+} */
+
+.service img{
+    width: 80px;
+    display: block;
+    padding: 10px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.service{
+    border-radius: 36px;
+
+}   
+
+.service:hover{
+    background: #fa9a01;
+    /* color: #fff; */
+    transition: 0.5s;
+}
+.bg-mid2 {
+    background: #fff url(/images/wave.svg) center center/cover no-repeat;
+    min-height: 85vh;
+}
+
+.foot-ter{
+    /* position: fixed; */
+    background: #fa9a01;
+    /* min-height: 75vh; */
+}
+.mid h1:hover, .services h1:hover {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.company{
+    margin-top: 1rem;
+    border: none;
+    
+    
+}
+.company img{
+    height: 80px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}  
+.company1{
+    margin-top: 3rem;
+    border: none;
+}
+.cmp{
+    padding: 5px;
+    margin-top: 10px;
+}
+.cmp ul {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.cmp ul li {
+    list-style: none;
+}
+
+.cmp ul li a {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 50%;
+    padding: 6px;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* box-shadow: 0 10px 15px rgba(0, 0, 0, 0.794); */
+    box-shadow: 0 10px 20px -5px #955e04;
+    background: linear-gradient(0deg, #fa9a01, #fad291);
+    transition: .5s;
+}
+
+.cmp ul li a:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    /* background: linear-gradient(0deg, #fa9a01, #fad291); */
+    text-decoration: none;
+}
+
+.cmp ul li a .fab {
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: linear-gradient(0deg, #fad291, #fa9a01);
+    border-radius: 50%;
+    line-height: calc(60px - 12px);
+    font-size: 24px;
+    color: rgb(93, 93, 93);
+    /* box-shadow: 0 1px 3px rgba(168, 168, 168, 0.63); */
+    transition: .5s;
+}
+
+.cmp ul li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+}
+
+.cmp ul li:nth-child(2) a:hover .fab {
+    color: #dd4b39;
+}
+
+.cmp ul li:nth-child(3) a:hover .fab {
+    color: #00aced;
+    ;
+}
+
+.dev{
+    margin-top: 3rem;
+    border: none;
+}
+
+.dev ul {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 0;
+    display: flex;
+}
+
+.dev ul li {
+    list-style: none;
+    padding: 10px;
+    
+}
+.dev ul li a{
+    
+    color: #000;
+}
+
+.dev ul li:nth-child(1) a:hover .fab {
+    color: #3b5998;
+}
+
+.dev ul li:nth-child(2) a:hover .fab {
+    color: #dd4b39;
+}
+
+.dev ul li:nth-child(3) a:hover .fab {
+    color: #00aced;
+    ;
+}
+/* ......................Contact Us..................... */
+.cntct{
+    background: #fa9a01;
+    padding: 2rem;
+}
+@media only screen and (max-width: 600px) {
+    .contact_form{
+        margin: 1rem !important;
+        padding: 1rem !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        width: 100% !important;
+    }
+ }
+.contact_form{
+    margin: 3rem;
+    padding: 1rem;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 36px;
+    background: #fa9a01;
+    box-shadow:  28px 28px 56px #d08001,
+             -28px -28px 56px #ffb401;
+}
+.contact_form h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+}
+.contact_form h4{
+    font-size: 25px;
+    color: #000;
+    text-align: center;
+}
+.contact_form label{
+    font-size: 20px;
+}
+.contact_form input{
+    border: none;
+    
+}
